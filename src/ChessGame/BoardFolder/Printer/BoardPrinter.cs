@@ -29,12 +29,12 @@ namespace ChessGame
                     }
                     if (TwoDTiles[row, col] == '\u265F'
                         || TwoDTiles[row, col] == '\u265C'
-                        || TwoDTiles[row, col] == '\u265E'
+                        || TwoDTiles[row, col] == 'Ⓚ'
                         || TwoDTiles[row, col] == '\u265D'
                         || TwoDTiles[row, col] == '\u265B' // black queen
                         || TwoDTiles[row, col] == '\u265A' // black king
                         || TwoDTiles[row, col] == '\u265D' // black bishop
-                        || TwoDTiles[row, col] == '\u265E' // black knight
+                        || TwoDTiles[row, col] == 'Ⓚ' // black knight
                         || TwoDTiles[row, col] == '\u265C') // black rook
                     {
                         Console.ForegroundColor = ConsoleColor.Black;
@@ -42,12 +42,12 @@ namespace ChessGame
 
                     if (TwoDTiles[row, col] == '\u2659'
                         || TwoDTiles[row, col] == '\u2656'  // white rook 
-                        || TwoDTiles[row, col] == '\u2658' // white knight
+                        || TwoDTiles[row, col] == 'K' // white knight
                         || TwoDTiles[row, col] == '\u2657' // white bishop
                         || TwoDTiles[row, col] == '\u2655' // white queen
                         || TwoDTiles[row, col] == '\u2654' // white king
                         || TwoDTiles[row, col] == '\u2657' // white bishop
-                        || TwoDTiles[row, col] == '\u2658' // white knight
+                        || TwoDTiles[row, col] == 'K' // white knight
                         || TwoDTiles[row, col] == '\u2656') // white rook
                     {
                         Console.ForegroundColor = ConsoleColor.White;

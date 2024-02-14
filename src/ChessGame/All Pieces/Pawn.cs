@@ -89,7 +89,7 @@ namespace ChessGame
             {
                 if (colDelta == 1 && rowDelta == moveDirection &&  
               ((arr[newRow, newCol] == '\u265C') ||
-              (arr[newRow, newCol] == '\u265E') ||
+              (arr[newRow, newCol] == 'Ⓚ') ||
               (arr[newRow, newCol] == '\u265D') ||
               (arr[newRow, newCol] == '\u265B') ||
               (arr[newRow, newCol] == '\u265A') ||
@@ -102,7 +102,7 @@ namespace ChessGame
             {
                 if (colDelta == 1 && rowDelta == moveDirection && 
               ((arr[newRow, newCol] == '\u2656') ||
-              (arr[newRow, newCol] == '\u2658') ||
+              (arr[newRow, newCol] == 'K') ||
               (arr[newRow, newCol] == '\u2657') ||
               (arr[newRow, newCol] == '\u2655') ||
               (arr[newRow, newCol] == '\u2654') ||

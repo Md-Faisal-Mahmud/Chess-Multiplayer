@@ -68,7 +68,7 @@ namespace ChessGame
             {
                 pieceType = _rook.IsValidMove;
             }
-            else if (piece == '\u265E' || piece == '\u2658')                       ///  Knight
+            else if (piece == 'Ⓚ' || piece == 'K')                       ///  Knight
             {
                 pieceType = _knight.IsValidMove;
             }

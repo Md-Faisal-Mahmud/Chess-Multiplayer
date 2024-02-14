@@ -71,8 +71,8 @@ namespace ChessGame.Business_Logic.rules
                         bool isValidMove = false;
                         switch (pieceSymbol)
                         {
-                            case '\u265E': // Knight
-                            case '\u2658':
+                            case 'Ⓚ': // Knight
+                            case 'K':
                                 isValidMove = _knight.IsValidMove(arr, row, col, kingRow, kingCol, !isWhite, false);
                                 break;
                             case '\u265D': // Bishop

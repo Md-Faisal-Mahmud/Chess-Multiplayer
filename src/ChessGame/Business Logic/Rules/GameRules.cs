@@ -102,8 +102,8 @@ namespace ChessGame
                                 moves = _bishop.GetAllValidBishopMoves(arr, row, col, isWhite);
                                 break;
 
-                            case '\u2658':
-                            case '\u265E':
+                            case 'K':
+                            case 'Ⓚ':
                                 moves = _knight.GetAllValidKnightMoves(arr, row, col, isWhite);
                                 break;
 
